@@ -18,15 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog of Marginal Ideas
-email: your-email@example.com
+title: "Marginal Ideas"
+subtitle: "A blog of personal findings"
+name: &name "quanghuy1258"
 description: >- # this means to ignore newlines until "baseurl:"
   Just the ideas I find interesting. Instead of writing down in the margin like
   Fermat's marginal proof, the ideas will be presented in this blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/quanghuy1258"
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
