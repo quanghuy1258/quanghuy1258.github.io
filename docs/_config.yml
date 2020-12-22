@@ -27,6 +27,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Site Author
+author:
+  name             : *name
+  avatar           : "/assets/images/quanghuy1258.jpg"
+  bio              : "I am a **knowledge sharing** person."
+  location         : "Vietnam"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/quanghuy1258"
+
 # Site Footer
 footer:
   links:
