@@ -30,7 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Site Author
 author:
   name             : *name
-  avatar           : "/assets/images/quanghuy1258.jpg"
+  avatar           : "/assets/images/quanghuy1258.png"
   bio              : "I am a **knowledge sharing** person."
   location         : "Vietnam"
   links:
