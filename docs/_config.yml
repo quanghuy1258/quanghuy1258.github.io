@@ -30,10 +30,10 @@ search: true
 
 # Site Author
 author:
-  name             : *name
-  avatar           : "/assets/images/quanghuy1258.png"
-  bio              : "I am a **knowledge sharing** person."
-  location         : "Vietnam"
+  name: *name
+  avatar: "/assets/images/quanghuy1258.png"
+  bio: "I am a **knowledge sharing** person."
+  location: "Vietnam"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
