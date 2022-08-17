@@ -16,4 +16,4 @@ Step 1:
 Step 2:
 - Run commands:
   $ bundle
-  $ bundle exec jekyll serve
+  $ bundle exec jekyll serve --livereload
