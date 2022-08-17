@@ -3,7 +3,7 @@ title: "Merkle tree"
 categories:
   - Cryptography
 tags:
-  - Cryptographic hash
+  - Cryptographic hashing
 mathjax: true
 issue_id: 2
 ---
