@@ -18,7 +18,7 @@ So, although not new, the first problem I want to introduce is as follows:
 
 > Prove that there is no smallest positive real number $x = a + b\sqrt{2}$ where $a$ and $b$ are integers.
 
-Stronger form (See Update 18/08/2022): Prove that for any positive real number $\varepsilon$, there always exist two integers $a$ and $b$ such that $0 < a + b\sqrt{2} < \varepsilon$.
+*Stronger form (See Update 18/08/2022): Prove that for any positive real number $\varepsilon$, there always exist two integers $a$ and $b$ such that $0 < a + b\sqrt{2} < \varepsilon$.*
 
 Actually, I found out this problem after learning a theorem.
 It is a nice theorem, but is not easy to prove, so I will present it in later posts.
