@@ -4,4 +4,7 @@
 
 layout: home
 author_profile: true
+header:
+  image: /assets/images/home_header.jpg
+  caption: "Source: Kimi no Na wa (aka Your Name)"
 ---
