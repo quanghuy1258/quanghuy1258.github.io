@@ -4,6 +4,7 @@ categories:
   - Cryptography
 tags:
   - Cryptographic hashing
+  - Graph theory
 mathjax: true
 issue_id: 2
 ---
