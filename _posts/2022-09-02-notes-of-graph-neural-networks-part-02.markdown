@@ -4,6 +4,7 @@ categories:
   - Artificial intelligence
 tags:
   - Calculus
+  - Taylor series
 toc: true
 toc_label: "Table of Contents"
 mathjax: true
