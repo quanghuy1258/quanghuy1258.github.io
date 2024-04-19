@@ -97,6 +97,10 @@ tag_archive:
 analytics:
   provider: "custom"
 
+# SEO Related
+google_site_verification: "b0GaMqpj_1NRdEw2Fj4Yxg7evUeVuaVRAtEd2ZkfkLk"
+bing_site_verification  : "7295AB97C641FDBA5ACA0D0C31A0421F"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
