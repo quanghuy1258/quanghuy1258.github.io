@@ -1,0 +1,78 @@
+---
+title: "An IMO 2022 Problem"
+categories:
+  - Mathematics
+tags:
+  - Functional equation
+mathjax: true
+issue_id: 5
+---
+
+I accidentally encountered this problem when I was surfing facebook.
+Yeah, I know it sounds crazy that I can study anytime, even during my free time.
+🤣 LOL!
+
+Anyway, a few days after I solved it, I found out where it came from.
+An IMO problem!
+However, it is not too difficult, but on the contrary, it is quite simple, straightforward, and very interesting when you only need basic knowledge to solve.
+
+> Let $\mathbb{R}^+$ denote the set of positive real numbers.
+Find all functions $f: \mathbb{R}^+ \to \mathbb{R}^+$ such that for each $x \in \mathbb{R}^+$, there is exactly one $y \in \mathbb{R}^+$ satisfying: $xf(y) + yf(x) \leq 2$.
+
+More simply, it can be stated as follows:
+Find all functions $f: \mathbb{R}^+ \to \mathbb{R}^+$ such that $\forall x > 0, \exists! y > 0, xf(y) + yf(x) \leq 2$.
+
+Next, before discussing how I formed the ideas to solve this problem in detail, why don't you sit down, take a cup of tea or coffee, and try it yourself?
+I'm sure it is very fun.
+
+...
+
+First of all, this is all knowledge you need to know. Many students in Vietnam are quite familiar with it, so I think it is not hard enough for you.
+
+- Inequality of arithmetic and geometric means: [Ref.](https://en.wikipedia.org/wiki/Inequality_of_arithmetic_and_geometric_means)
+- Solving a quadratic inequation.
+
+Now let's begin!
+
+I don't remember exactly all ideas I came up with at first.
+But there was some progress after I tried some trivial functions and found that $f(x) = \frac{1}{x}$ was one of potential solutions for this problem.
+Thus, if $f(x) = \frac{1}{x}$, then $xf(y) + yf(x)$ will become $\frac{x}{y} + \frac{y}{x}$.
+This expression is closely related to the number $2$ due to the inequality $\frac{x}{y} + \frac{y}{x} \geq 2, \forall x, y > 0$.
+
+Hmm, what can we do with this new finding?
+We know that there always exists pairs $(x, y)$ satisfying $xf(y) + yf(x) \leq 2$ with $x, y > 0$.
+From $xf(y) + yf(x) \leq 2$, we have:
+
+$$x\left(f(y) - \frac{1}{y}\right) + y\left(f(x) - \frac{1}{x}\right) \leq - \frac{x}{y} - \frac{y}{x} + 2 \leq 0$$
+
+That means $f(x) > \frac{1}{x}, \forall x > 0$ cannot be true because there are no pairs $(x, y)$ satisfying requirements.
+Therefore, some $x$ may satisfy $f(x) > \frac{1}{x}$ while other $x$ may satisfy $f(x) \leq \frac{1}{x}$.
+
+The next question is whether we can improve the above result, i.e. there doesn't exist $x$ satisfying $f(x) > \frac{1}{x}$.
+Why don't we assume that $x_0$ is a such value, i.e. $f(x_0) > \frac{1}{x_0}$?
+If true, there is exactly one $y_0$ satisfying the inequation.
+Then, we infer that $f(y_0) \leq \frac{1}{y_0}$, so $x_0 \neq y_0$.
+However, if we choose the value $y_0$ for $x$, we have two distinct values of $y$ satisfying the inequation, $x_0$ and $y_0$.
+This is contrary to the hypothesis, and we conclude that there are no values of $x$ satisfying $f(x) > \frac{1}{x}$, i.e. $f(x) \leq \frac{1}{x}, \forall x > 0$.
+
+What about $f(x) < \frac{1}{x}$?
+Can we treat it the same as $f(x) > \frac{1}{x}$, i.e. there doesn't exist $x$ satisfying $f(x) < \frac{1}{x}$, which implies $f(x) = \frac{1}{x}, \forall x > 0$?
+Luckily, this is possible, but my way is slightly not natural.
+Firstly, we assume that $y_1$ satisfies $f(y_1) < \frac{1}{y_1}$.
+Secondly, we have $f(x) \leq \frac{1}{x}, \forall x > 0$, so $xf(y) + yf(x) \leq xf(y) + \frac{y}{x}, \forall x > 0$.
+Thirdly, we can show that for each $x > 0$, $x$ is a suitable value of $y$ satisfying the inequation due to $f(x) \leq \frac{1}{x}, \forall x > 0$.
+Hence, from the above three findings, if we can choose an infinite number of positive values for $x$ such that $x \neq y_1$ and $y_1$ is also a suitable value of $y$ satisfying the inequation, the assumption will be fail because it will lead to a contradiction with the hypothesis.
+This can be viable if we choose $x > 0$ satisfying $x \neq y_1$ and $xf(y_1) + \frac{y_1}{x} \leq 2$.
+For all $x > 0$, we have:
+
+$$\begin{aligned}
+     & xf(y_1) + \frac{y_1}{x} \leq 2 \\
+\iff & x^2 - \frac{2}{f(y_1)}x + \frac{y_1}{f(y_1)} \leq 0 \\
+\iff & \left(x - \frac{1}{f(y_1)}\right)^2 - \frac{1 - y_1f(y_1)}{f(y_1)^2} \leq 0 \\
+\iff & \left(x - \frac{1 - \sqrt{1 - y_1f(y_1)}}{f(y_1)}\right)\left(x - \frac{1 + \sqrt{1 - y_1f(y_1)}}{f(y_1)}\right) \leq 0 \\
+\end{aligned}$$
+
+Then, all values in $\left[\frac{1 - \sqrt{1 - y_1f(y_1)}}{f(y_1)}, \frac{1 + \sqrt{1 - y_1f(y_1)}}{f(y_1)}\right] \setminus \\{ y_1 \\}$ satisfy the above requirements of $x$.
+Therefore, the assumption is false, so $f(x) = \frac{1}{x}, \forall x > 0$.
+
+So that's the way I solved this problem. Thank you for reading to here and have a nice day :)

@@ -1,0 +1,19 @@
+Step 1:
+- In 'Gemfile', change lines:
+    gem "github-pages", group: :jekyll_plugins
+    #gem "minimal-mistakes-jekyll"
+  into:
+    #gem "github-pages", group: :jekyll_plugins
+    gem "minimal-mistakes-jekyll"
+
+- In '_config.yml', change lines:
+    remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+    #theme: minimal-mistakes-jekyll
+  into:
+    #remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+    theme: minimal-mistakes-jekyll
+
+Step 2:
+- Run commands:
+  $ bundle
+  $ bundle exec jekyll serve --livereload
