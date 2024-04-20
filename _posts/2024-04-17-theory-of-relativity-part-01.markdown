@@ -84,6 +84,9 @@ x'_2 &= 2ct'_1 - ct'_2 = c(2t'_1 - t'_2) \\
 \implies t'_2 &= 2t'_1 \\
 \end{aligned}$$
 
+{% include figure image_path="/assets/images/posts/2024-04-17-theory-of-relativity-part-01/Figure_1.png" caption="Figure 1. A photon moves, then is reflected and moves back in both $F$ and $F'$." %}
+
+The whole process is illustrated in Figure 1.
 Thus, at time $t = \frac{t_2}{2} = \frac{c}{c + v} t_1$ in $F$, the corresponding time at the origin $O'$ in $F'$ is $t' = \frac{t'_2}{2} = t'_1$.
 However, $t' = t'_1$ is also the time that the photon is reflected in $F'$.
 So, we can imply that the following events occur at the same time $t' = t'_1$ in $F'$.
