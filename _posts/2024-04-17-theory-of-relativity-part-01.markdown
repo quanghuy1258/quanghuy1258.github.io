@@ -189,7 +189,6 @@ x' = \gamma (x - vt) \\
 y' = y \\
 z' = z \\
 t' = \gamma \left(t - \frac{vx}{c^2}\right) \\
-\end{cases}
-$$
+\end{cases}$$
 
 where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$ is the Lorentz factor.
