@@ -11,7 +11,7 @@ issue_id: 1
 It is really difficult to choose a topic for the first post.
 There are so many things I want to share.
 However, I remember the jokes everybody here often talks each other about the beginning of something, like "Vạn sự khởi đầu nan, gian nan bắt đầu nản".
-That sentence has a slight modification from the original one, but its meaning is the same as the quote, "All things are difficult before they are easy".
+That sentence has a slight modification from the original one, but its meaning is the same as the quote, "The first step is always the hardest".
 Therefore, the topic for the beginning of the blog or the year should be simple.
 
 So, although not new, the first problem I want to introduce is as follows:
