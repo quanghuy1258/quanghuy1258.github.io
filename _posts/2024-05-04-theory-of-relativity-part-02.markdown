@@ -175,7 +175,7 @@ This means that the spatial distance between $A$ and $B$ is limited, and this li
 So, all consequential events of an event must lie within a region of spacetime known as the future light cone.
 Similarly, all causal events of an event must lie within a region of spacetime known as the past light cone (see Figure 5).
 
-{% include figure image_path="/assets/images/posts/2024-05-04-theory-of-relativity-part-02/Figure_5.jpg" caption="Figure 5. The visualization of the past and future light cone of an event.(Source: Internet)" %}
+{% include figure image_path="/assets/images/posts/2024-05-04-theory-of-relativity-part-02/Figure_5.jpg" caption="Figure 5. The visualization of the past and future light cone of an event. (Source: Internet)" %}
 
 So, in Figure 4, none of the three events lie within the light cones of the others.
 Therefore, there is no causal relationship between them, and the fact that no observer can see the sequence of events in reverse chronological order still holds true.
